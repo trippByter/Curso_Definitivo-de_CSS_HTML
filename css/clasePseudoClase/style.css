@@ -1,0 +1,32 @@
+/*
+p { -- p es el selector
+    --Todo lo q está dentro de las llaves, es declaración de estilos--
+    color: red; --color es property y r e d es property value--
+}
+*/
+/*Trabajamos con las clases*/
+.main-nav {
+    background-color: #13a4a4;
+    list-style: none; /*Quitamos los bullets de la lista*/
+    margin-top: 10px;
+    padding-left: 0; /*Dimensión interna*/
+}
+.main-nav__item {
+    display: inline-block; /*Elementos de la nav bar de manera horizontal*/
+}
+.main-nav__item a { /*Etiquetas 'a' dentro de la clase main.nav__item*/
+    /*background-color: red;*/
+    border-radius: 2px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.main-nav__item a:hover { /*Pseudoclases " : "*/
+    color: blue;
+}
+.main-nav__item a:active {
+    color: red;
+}
+.main-nav__item a::after { /*Pseudoelementos " :: "*/
+    content: " | ";
+}

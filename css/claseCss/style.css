@@ -1,0 +1,14 @@
+/*Estilo por etiqueta*/
+p {
+    color: blue;
+    font-size: 40px;
+}
+/*Estilo por class*/
+.parrafo {
+    color: red;
+}
+/*Estilo por id*/
+#texto {
+    color: green;
+    font-size: 24px;
+}
