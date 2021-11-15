@@ -1,0 +1,13 @@
+/*1em = 16px. 'em' Toma el tamaño de fuente del padre directo*/
+.text-container {
+    font-size: 1.5em;
+}
+.text-container div {
+    font-size: 1.5em;
+}
+/*
+Este código muestra dos tamaños distintos de fuente,
+porque el 'main' toma de 'html' 
+y el 'div' toma del 'main'
+NO ES BUENA PRÁCTICA
+*/
