@@ -1,0 +1,16 @@
+/*Child hijo*/
+div > p {
+color: red;
+}
+/*
+A la etiqueta 'p' que sea hija directa de un 'div',
+agrégale los estilos
+*/
+
+/*Descendent*/
+div p {
+    color: blue;
+}
+/*
+A todos los 'p' que estén dentro de un div
+*/

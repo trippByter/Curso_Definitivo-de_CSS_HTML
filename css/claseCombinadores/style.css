@@ -1,0 +1,4 @@
+/*Adjacent sibling.Hermano cercano -index.html- */
+h2 + p { /*Aplica a etiquetas de párrafo que esté cercano a un H2*/
+    color: red;
+}

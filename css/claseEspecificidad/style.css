@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: purple;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+/* Evitar trabajar con id's
+#page-title { -Modifica 'Empresa'. Id tiene más prioridad que la clase-
+    -Se estila Arial, sino lo tiene, el otro y sino, el otro-
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+.title { /*Estilo a 'Empresa'. El monospace no se incluye por ser menos prioritario q id*/
+    font-size: 18px;
+    font-family: monospace;
+}
+/*
+#main-nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+}*/
+.nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+/*
+#main-nav li {
+    display: inline-block;
+}
+*/
+.nav li {
+    display: inline-block;
+}
+/*
+#main-nav a {
+    background-color: #13A4A4;
+    border-radius: 2px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+*/
+.nav a { /*01 clase - 01 etiqueta*/
+    background-color: #13A4A4;
+    border-radius: 2px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.nav .blog { /*02 clases. Es más prioritario que te tener 01 clase-01 etiqueta*/
+    /*Evitar uso del !important. Prioridad uno en especificidad*/
+    background-color: red;
+}

@@ -1,0 +1,11 @@
+/*General sibling.Hermano general -index2.html-*/
+h2 ~ p { 
+    color: red;
+}
+/*
+Las etiquetas 'p' tienen como hermano general a h2
+Aplica estilos siempre y cuando,
+existan a la misma línea como hermanos 
+esa etiqueta que estamos mod 
+con el simbolo '~' 
+*/
