@@ -1,4 +1,4 @@
-/*Child hijo*/
+/*Child-hijo*/
 div > p {
 color: red;
 }
@@ -8,9 +8,9 @@ agrégale los estilos
 */
 
 /*Descendent*/
-div p {
+/*div p {
     color: blue;
-}
+}*/
 /*
 A todos los 'p' que estén dentro de un div
 */

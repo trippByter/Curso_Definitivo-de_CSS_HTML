@@ -1,0 +1,20 @@
+/* Los pixeles son medidas absolutas. Nunca cambian
+p {
+    font-size: 18px; 
+}
+*/
+
+/*Recordar que HTML pone como tamaño de fuente por defecto: 16px
+p {
+    font-size: 50%;
+}
+*/
+
+main {
+    background-color: red;
+    height: 500px;
+    width: 100%
+}
+p {
+    font-size: 16px;
+}
