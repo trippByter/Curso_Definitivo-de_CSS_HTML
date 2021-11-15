@@ -1,0 +1,15 @@
+* { /*Selector universal*/
+    /*EL navegador agrega bordes automáticamente, con esta conf, prevenimos ello*/
+    /*box-sizing: border-box; Ajusta el tamaño del elemento del padding y el border*/
+    box-sizing: border-box; /*Evita el scroll horizontal. Aprovecha el width de 100%*/
+    margin: 0;
+    padding: 0;
+   
+}
+
+main {
+    border: 10px solid grey;
+    height: 500px;
+    padding: 20px 35px; /*arriba-derecha-abajo-izquierda. Tener cuidado con wl width de 100%*/
+    width: 100%;
+}

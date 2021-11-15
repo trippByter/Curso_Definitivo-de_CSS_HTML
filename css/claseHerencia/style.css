@@ -1,0 +1,9 @@
+html {
+    font-size: 75%; /*Por defecto, html tiene tamaño definido de letra de 16 px. el 75% es 12*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Navegador agrega estilo específico a etiqueta "h1" . No toma el tamaño de fuente de html*/
+/*Heredar el font-size de html. Hereda del más cercano*/
+h1 {
+    font-size: inherit;
+}

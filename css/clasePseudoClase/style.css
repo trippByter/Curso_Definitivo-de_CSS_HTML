@@ -1,7 +1,7 @@
 /*
-p { -- p es el selector
-    --Todo lo q está dentro de las llaves, es declaración de estilos--
-    color: red; --color es property y r e d es property value--
+p { -- p es el selector de elementos, class o id
+    --Todo lo q está dentro de las llaves, es la declaración de estilos--
+    color: red; --color es "property:" y r e d es "property_value;"--
 }
 */
 /*Trabajamos con las clases*/
@@ -21,7 +21,7 @@ p { -- p es el selector
     padding: 5px;
     text-decoration: none;
 }
-.main-nav__item a:hover { /*Pseudoclases " : "*/
+.main-nav__item a:hover { /*Pseudoclases " : ", define el estado */
     color: blue;
 }
 .main-nav__item a:active {
