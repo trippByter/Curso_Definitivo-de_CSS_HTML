@@ -1,0 +1,23 @@
+/*
+Position Static: Default HTML all tags.
+Position Absolute: El container dos se sobrepone al tres que pierde posición.
+Position Relative: Mantiene posición así haya cambios.
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    border: 2px black dotted; /*Borde con puntos*/
+    display: inline-block;
+}
+.box {
+    background-color: red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+#two {
+    background-color: green;
+}

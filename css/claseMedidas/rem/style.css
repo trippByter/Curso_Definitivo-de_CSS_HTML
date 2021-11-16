@@ -1,0 +1,25 @@
+/*--BUENA PRÁCTICA--
+Mientras EM toma como referencia a su padre directo.
+Rem toma como referencia el estilo de la etiqueta root, en este caso, HTML
+No varía el elementos embebidos
+1rem = 16px
+Con html a 62.5%, un REM siempre valdrá 10px. 
+Para 16px, 1,6rem;
+Para 20px, 2rem; 
+Para 30px, 3rem*/
+/*ESTO SIEMPRE TIENE Q IR EN TODOS LOS CSS*/
+* {
+    box-sizing: border-box; /*Para no tener inconv. con navegadores*/
+    margin: 0; /*Se reinicia*/
+    padding: 0; /*Se reinicia*/
+}
+html {
+    font-size: 62.5%;
+}
+/**/
+p {
+    font-size: 1.6rem;
+}
+main div {
+    font-size: 1.6rem;
+}

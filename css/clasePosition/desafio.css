@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;   
+}
+main {
+    height: 100vh;
+    width: 100vw;
+}
+p {
+    margin: 30px auto;
+}
+.up {
+    background-color: red;
+    bottom: 15px;
+    font-size: 18px;
+    border: 3px black solid;
+    border-radius: 10%;
+    height: 10%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 40%;
+}
+.down {
+    background-color: gray;
+    border: 3px black solid;
+    border-radius: 10%;
+    font-size: 20px;
+    height: 40%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 60px;
+    width: 60%;
+}
