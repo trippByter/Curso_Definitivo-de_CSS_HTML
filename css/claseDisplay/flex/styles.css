@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+/*Display Flex:
+Tiene 'display direction'(direccion en la que se acomodan los hijos)
+'display: flex;' alinea por defecto el fila(row)
+'flex-direction: column;' alinea en columna
+'flex-direction: row-reverse;' para fila invertida
+'flex-direction: column-reverse;' para columna invertida
+'flex-wrap: wrap;' para que los elementos se acomoden (uno debajo de otro)al achicar pantalla
+'flex-wrap: wrap-reverse;' wrap invertido
+'justify-content: center;' alinear los elementos de forma horizontal
+'justify-content: flex-start;' default, todo a la izquierda
+'justify-content: flex-end;' todo a la derecha
+'justify-content: space-around;' reparte espacio sobrante entre elementos. No es propor.
+'justify-content: space-evenly;' IDEM. Sí es proporcional
+*/
+.container {
+    border: 0.3rem solid black; /*0.3rem = 03px*/
+    display: flex; /*Se agrega flex al padre y autom. los hijos adquieren el atributo*/
+    justify-content: space-evenly;
+}
+.box {
+    height: 10rem;
+    width: 10rem;
+}
+.box1 {
+    background-color: blue ;
+}
+.box2 {
+    background-color: blueviolet;
+}
+.box3 {
+    background-color: burlywood;
+}
+.box4 {
+    background-color: cadetblue;
+}
+.box5 {
+    background-color: coral;
+}
+.box6 {
+    background-color: salmon;
+}

@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+}
+header {
+    background-color: aqua;
+    font-size: 1.6rem;
+    
+}
+header p {
+    display: inline-block;
+    text-align: left;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    position: relative;;
+    text-align: right;
+}
+.menu li {
+    display: inline-block;
+}
+.cuadros {
+    background-color: blueviolet;
+    width: 30%;
+}
+.cont-izq {
+    background-color: blue;
+}
+.text {
+    background-color: sienna;
+    margin: 0 auto;
+    width: 30%;
+}

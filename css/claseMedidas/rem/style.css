@@ -4,9 +4,10 @@ Rem toma como referencia el estilo de la etiqueta root, en este caso, HTML
 No varía el elementos embebidos
 1rem = 16px
 Con html a 62.5%, un REM siempre valdrá 10px. 
-Para 16px, 1,6rem;
+Para 10px, 1rem;
+Para 16px, 1.6rem;
 Para 20px, 2rem; 
-Para 30px, 3rem*/
+Para 30px, 3rem
 /*ESTO SIEMPRE TIENE Q IR EN TODOS LOS CSS*/
 * {
     box-sizing: border-box; /*Para no tener inconv. con navegadores*/

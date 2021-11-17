@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-/*Éste contenedor(main) usará el 100% del viewport*/
+/*Éste contenedor(main) usará el 100% del viewport, tanto width como height*/
 /*Esto permita dar dimensiones a los contenedores padre*/
 /*Ideal para landing page, donde podemos poscionar el width y height*/
 main { 
@@ -13,8 +13,8 @@ main {
 }
 section {
     background-color: red;
-    height: 500px;
-    margin: 0 auto; /*Agrega margin a los lados*/
+    min-height: 500px; /*Se amolda al contenido ('p'). No necesita un %height*/
+    margin: 0 auto; /*Agrega margin a los lados. Centra este contenedor*/
     max-width: 500px;
     min-width: 320px; /*Para usar esto, debe existir un width base. Casi siempre en %*/
     width: 80%; /*Base para el min-width*/

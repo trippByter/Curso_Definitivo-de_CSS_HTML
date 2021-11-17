@@ -1,0 +1,38 @@
+/*
+.block-element
+Display Block: 
+Usa el 100% del width. Sin importar el texto. Todo el bloque
+Se le puede agregar margin y padding a los 4 lados
+
+<span></span>
+Display inline: 
+Utiliza el espacio de su contenio solamente 
+No se usa margin o padding para arriba y abajo. Se usa para izq o derecha
+No se puede agregar width y height.
+
+<ul></ul> 
+Display inline-block:
+Usa el 100% sólo del contenido
+Los <li> tienen list-item. Es un default display. Coloca a los elemts verticalmnt
+Aquí SÍ se puede agregar margin bottom y top
+*/
+.block-element {
+    background-color: green;
+    margin: 10px;
+    padding: 20px;
+}
+.nav {
+    background-color: peachpuff;
+    list-style: none; /*Quitar los bullets(viñetas)*/
+    padding: 20px;
+    text-align: center;
+}
+
+
+.nav li {
+    display: inline-block; /*Se fusiona el inline y el block*/
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
