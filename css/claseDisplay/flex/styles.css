@@ -26,7 +26,6 @@ Tiene 'display direction'(direccion en la que se acomodan los hijos)
 .container {
     border: 0.3rem solid black; /*0.3rem = 03px*/
     display: flex; /*Se agrega flex al padre y autom. los hijos adquieren el atributo*/
-    justify-content: space-evenly;
 }
 .box {
     height: 10rem;
