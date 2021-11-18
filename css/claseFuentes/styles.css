@@ -1,0 +1,6 @@
+/*Usar solo UNA fuente por proyecto
+Importar siempre en el head*/
+html {
+    font-family: 'Road Rage', cursive;
+    font-size: 25px;
+}
