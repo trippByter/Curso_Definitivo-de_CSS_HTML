@@ -33,17 +33,15 @@ Los que tengan el atributo, se alinean a la derecha
 'flex-basis: Nrem;'
 */
 .container {
+    align-items: flex-end;
     border: 0.3rem solid black; /*0.3rem = 03px*/
     display: flex; /*Se agrega flex al padre y autom. los hijos adquieren el atributo*/
-    flex-wrap: wrap;
-    /*height: 50vh; Altura a 50% de la pantalla*/
+    height: 50vh; /*Altura a 50% de la pantalla*/
 }
 .box {
     /*Se debe quitar width y height para usar align-items: stretch;*/
-    flex-basis: 10rem;
-    flex-grow: 1;
     height: 10rem;
-    /*width: 10rem;*/
+    width: 10rem;
 }
 .box1 {
     background-color: blue ;
