@@ -1,0 +1,22 @@
+/*Para responsive design se necesita: 'media queries' y 'breakpoints'
+Los breakpoints son dimension en el viewport de las pantallas donde
+se generan los cambios del layout
+
+Los media queries son: 
+@media (min-width: 480px) { 
+    ...Cuando la pantalla se mas chica que esto,
+    sucede este código.
+    Si es más grande que 480px, pasa al
+    sgte. de 768px
+}
+@media (min-width: 768px  
+    ...Si la pantalla crece se puede reposicionar
+    los contenedores
+}
+@media (min-width: 1024px) { 
+    ...
+}
+MOBILE FIRST/ONLY: La mayoría de los proyectos web
+se diseñan solo para dispositivos mobiles.
+Siempre empezar por diseñar para mobile e ir escalando
+*/
