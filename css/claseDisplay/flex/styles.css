@@ -29,25 +29,29 @@ Tiene 'display direction'(direccion en la que se acomodan los hijos)
 'align-items: baseline;' Contenedor se ajusta al tamaño de su contenido
 'order: n;' Ordenar elementos dependiendo del 'n'. Sin esta propiedad, cntndrs a izq.
 Los que tengan el atributo, se alinean a la derecha
-'flex-grow: n;'.Contndrs crecen hasta rellenar el 100% del width 
-'flex-basis: Nrem;'
+'flex-basis: Nrem;''flex-basis: Nrem;'
+'flex-grow: n;'.Contndrs crecen hasta rellenar el 100% del 'width' 
 */
 .container {
-    align-items: flex-end;
     border: 0.3rem solid black; /*0.3rem = 03px*/
     display: flex; /*Se agrega flex al padre y autom. los hijos adquieren el atributo*/
-    height: 50vh; /*Altura a 50% de la pantalla*/
+    flex-wrap: wrap;
+    /*height: 50vh; /*Altura a 50% de la pantalla*/
 }
 .box {
     /*Se debe quitar width y height para usar align-items: stretch;*/
+    /*Usar flex-basis con flex-grow, los elemts se ajustan hacia abajo al modf pantalla*/
+    flex-basis: 10rem;
+    flex-grow: 1;
     height: 10rem;
-    width: 10rem;
 }
 .box1 {
     background-color: blue ;
+    flex-grow: 1;
 }
 .box2 {
     background-color: blueviolet;
+    flex-grow: 1;
 }
 .box3 {
     background-color: burlywood;
