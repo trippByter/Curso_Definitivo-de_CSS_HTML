@@ -1,0 +1,33 @@
+:root { /*Hace ref al html. Es la raiz. Dentro se declaran variables como se aprecia*/
+    --primary-color: #003476;
+    --secondary-color: #b4d2f7;
+    --header-size: 4rem;
+    --font: 1.8rem;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    background-color: var(--primary-color);
+    height: 15vh;
+    width: 100vw;
+}
+main {
+    font-size:var(--font);
+    height: 70vh;
+    width: 100vw;
+}
+h1 {
+    font-size: var(--header-size);
+    color: var(--primary-color);
+}
+footer {
+    background-color: var(--secondary-color);
+    height: 15vh;
+    width: 100vw;
+}
