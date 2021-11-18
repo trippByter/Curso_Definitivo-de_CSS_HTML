@@ -1,33 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
 html {
     font-size: 62.5%;
 }
-header {
-    background-color: aqua;
+body {
     font-size: 1.6rem;
-    
 }
-header p {
-    display: inline-block;
-    text-align: left;
+.header {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
 }
-.menu {
-    list-style: none;
-    padding: 0;
-    position: relative;;
-    text-align: right;
-}
-.menu li {
-    display: inline-block;
+main {
+    display: flex;
+    justify-content: space-between;
 }
 .cuadros {
-    background-color: blueviolet;
-    width: 30%;
+    align-items: center;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    height: 87vh;
+    justify-content: space-evenly;
+    width: 30vw;
 }
 .cont-izq {
-    background-color: blue;
+    background-color: gray;
+    border-radius: 15px;
+    border-radius: 5% solid black;
+    height: 16vh;
+    width: 25vw ;
+    
 }
 .text {
-    background-color: sienna;
-    margin: 0 auto;
-    width: 30%;
+    background-color: tomato;
+    height: 87vh;
+    width: 70vw;
+}
+footer {
+    background-color: yellow;
+    height: 10vh;
 }

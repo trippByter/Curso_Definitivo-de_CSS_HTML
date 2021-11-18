@@ -5,13 +5,13 @@ Usa el 100% del width. Sin importar el texto. Todo el bloque
 Se le puede agregar margin y padding a los 4 lados
 
 <span></span>
-Display inline: 
+display: inline; 
 Utiliza el espacio de su contenio solamente 
 No se usa margin o padding para arriba y abajo. Se usa para izq o derecha
 No se puede agregar width y height.
 
 <ul></ul> 
-Display inline-block:
+display: inline-block;
 Usa el 100% sólo del contenido
 Los <li> tienen list-item. Es un default display. Coloca a los elemts verticalmnt
 Aquí SÍ se puede agregar margin bottom y top

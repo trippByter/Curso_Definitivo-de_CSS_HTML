@@ -11,7 +11,7 @@ body {
 }
 /*Display Flex:
 Tiene 'display direction'(direccion en la que se acomodan los hijos)
-'display: flex;' alinea por defecto el fila(row)
+'display: flex;' alinea por defecto en fila(row)
 'flex-direction: column;' alinea en columna
 'flex-direction: row-reverse;' para fila invertida
 'flex-direction: column-reverse;' para columna invertida
@@ -22,14 +22,28 @@ Tiene 'display direction'(direccion en la que se acomodan los hijos)
 'justify-content: flex-end;' todo a la derecha
 'justify-content: space-around;' reparte espacio sobrante entre elementos. No es propor.
 'justify-content: space-evenly;' IDEM. Sí es proporcional
+'align-items: center;' Esto viene directamente d flexbox. Alinea todo en la parte central del contndr.
+'align-items: flex-end;' Alinea todo en la parte inferior del contndr
+'align-items: flex-start;' Alinea todo en la parte superior del contndr
+'align-items: stretch;' Los elementos se estiran(height) 100% de su contndr padre
+'align-items: baseline;' Contenedor se ajusta al tamaño de su contenido
+'order: n;' Ordenar elementos dependiendo del 'n'. Sin esta propiedad, cntndrs a izq.
+Los que tengan el atributo, se alinean a la derecha
+'flex-grow: n;'.Contndrs crecen hasta rellenar el 100% del width 
+'flex-basis: Nrem;'
 */
 .container {
     border: 0.3rem solid black; /*0.3rem = 03px*/
     display: flex; /*Se agrega flex al padre y autom. los hijos adquieren el atributo*/
+    flex-wrap: wrap;
+    /*height: 50vh; Altura a 50% de la pantalla*/
 }
 .box {
+    /*Se debe quitar width y height para usar align-items: stretch;*/
+    flex-basis: 10rem;
+    flex-grow: 1;
     height: 10rem;
-    width: 10rem;
+    /*width: 10rem;*/
 }
 .box1 {
     background-color: blue ;
